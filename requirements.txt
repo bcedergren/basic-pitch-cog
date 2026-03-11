@@ -1,0 +1,10 @@
+basic-pitch==0.4.0
+onnxruntime>=1.15.0
+librosa>=0.8.0
+numpy>=1.18,<2.0
+pretty_midi>=0.2.9
+resampy>=0.2.2,<0.4.3
+scipy>=1.4.1
+scikit-learn
+typing_extensions
+soundfile

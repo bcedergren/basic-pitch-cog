@@ -1,0 +1,8 @@
+build:
+  python_version: "3.11"
+  system_packages:
+    - "ffmpeg"
+    - "libsndfile1"
+  python_requirements: "requirements.txt"
+  gpu: false
+predict: "predict.py:Predictor"
