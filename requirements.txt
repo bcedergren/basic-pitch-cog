@@ -7,3 +7,4 @@ scipy>=1.4.1
 scikit-learn
 typing_extensions
 soundfile
+music21>=9.1
