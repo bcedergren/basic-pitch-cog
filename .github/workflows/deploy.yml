@@ -14,6 +14,6 @@ jobs:
         with:
           token: ${{ secrets.REPLICATE_API_TOKEN }}
 
-      - run: cog login --token-stdin <<< "${{ secrets.REPLICATE_API_TOKEN }}"
-
       - run: cog push r8.im/rehearsync/basic-pitch
+        env:
+          COG_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
