@@ -163,7 +163,7 @@ def midi_to_musicxml(midi_path: str, output_path: str, stem_name: str = "") -> N
             if avg < 48:
                 inst = instrument.ElectricBass()
             elif avg < 60:
-                inst = instrument.Cello()  # Bass clef range
+                inst = instrument.Violoncello()  # Bass clef range
             else:
                 inst = instrument.Piano()
         else:
